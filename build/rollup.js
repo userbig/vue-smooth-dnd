@@ -10,7 +10,8 @@ import buble from 'rollup-plugin-buble'
 
 const pkg = require('../package.json')
 const external = Object.keys(pkg.dependencies || {})
-const name = pkg.name
+const names = pkg.name.split('/')
+const name = names[names.length - 1]
 const className = name.replace(/(^\w|-\w)/g, c => c.replace('-', '').toUpperCase())
 
 function output (ext, format = 'umd') {
