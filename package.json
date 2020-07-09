@@ -1,6 +1,6 @@
 {
   "name": "@cachepos/vue-smooth-dnd",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Vue wrappers for smooth-dnd",
   "author": "Kutlu Sahin",
   "homepage": "https://kutlugsahin.github.io/vue-smooth-dnd/",
